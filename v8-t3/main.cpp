@@ -5,11 +5,11 @@ using namespace std;
 
 int main() {
     double x = 0, a = 0, b = 0;
-    cout << "Чему равно X: ";
+    cout << "Введите X: ";
     cin >> x;
-    cout << "Чему равно A: ";
+    cout << "Введите A: ";
     cin >> a;
-    cout << "Чему равно B: ";
+    cout << "Введите B: ";
     cin >> b;
     double y = 1 / sin(x) * exp(-b) * log(a + b);
     cout << y;
